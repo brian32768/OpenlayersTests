@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=11, IE=10, IE=9, ie=8, ie=7">
+
+    <title>openlayers2</title>
+    <script src="OpenLayers-2.13.1/OpenLayers.js"></script>
+
+    <script>
+        function initMap() {
+            var map = new OpenLayers.Map("map");
+            var osm = new OpenLayers.Layer.OSM("Simple OSM BaseMap");
+            map.addLayer(osm);
+            map.addControl(new OpenLayers.Control.LayerSwitcher());
+            map.setCenter(
+                new OpenLayers.LonLat(-124, 46).transform(
+                    new OpenLayers.Projection("EPSG:4326"),new OpenLayers.Projection("EPSG:90013")
+                ), 5
+            );
+        }
+    </script>
+    <style>
+        #map {
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body onload="initMap()">
+
+    <h1>OpenLayers 2 example</h1>
+    If you are creating a new app this is outdated. I just included it to confirm I could get OL2 to work.
+    setCenter() is not working for some reason but I really don't care because I have to move on now to an OL3 example.
+    <p>
+        <div id="map">
+            <!-- map will draw here -->
+        </div>
+    </p>
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://js.arcgis.com/3.25/esri/css/esri.css">
+
+    <title>simplest</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var jsver = 1.0;
+    </script>
+    <script language="Javascript1.1">
+        jsver = 1.1;
+    </script>
+    <script language="Javascript1.2">
+        jsver = 1.2;
+    </script>
+    <script language="Javascript1.3">
+        jsver = 1.3;
+    </script>
+    <script language="Javascript1.4">
+        jsver = 1.4;
+    </script>
+    <script language="Javascript1.5">
+        jsver = 1.5;
+    </script>
+    <script language="Javascript1.6">
+        jsver = 1.6;
+    </script>
+    <script language="Javascript1.7">
+        jsver = 1.7;
+    </script>
+    <script language="Javascript1.8">
+        jsver = 1.8;
+    </script>
+    <script language="Javascript1.9">
+        jsver = 1.9;
+    </script>
+
+    <script src="https://js.arcgis.com/3.25/"></script>
+
+    <script>
+        console.log("Simple so simple!");
+
+        require(["esri/map", "dojo/domReady!"], function (Map) {
+            map = new Map("map", {
+                basemap: "topo",  //For full list of pre-defined basemaps, navigate to http://arcg.is/1JVo6Wd
+                center: [-123.76, 46.2], // longitude, latitude
+                zoom: 13
+            });
+        });
+
+        //import Map from 'node_modules/ol/Map.js';
+        //import View from 'ol/View.js';
+        //import TileLayer from 'ol/layer/Tile.js';
+        //import XYZ from 'ol/source/XYZ.js';
+
+        //alert("Javascript version " + jsver);
+    </script>
+    <div id="map"></div>
+</body>
+</html>

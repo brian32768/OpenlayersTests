@@ -1,0 +1,12 @@
+{
+  "name": "openlayers_app",
+  "version": "1.0.0",
+  "description": "Openlayers App",
+  "main": "server.js",
+  "author": {
+    "name": "bwilson"
+  },
+  "dependencies": {
+    "ol": "^5.1.3"
+  }
+}
