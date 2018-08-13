@@ -2,7 +2,7 @@ var http = require('http');
 var port = process.env.PORT || 1337;
 var path = require('path');
 var fs = require('fs');
-var base = 'C:/GeoModel/WebMaps/OpenlayersApp';
+var base = '.';
 
 http.createServer(function (req, res) {
     

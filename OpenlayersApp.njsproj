@@ -5,7 +5,8 @@
     <Name>OpenlayersApp</Name>
     <RootNamespace>OpenlayersApp</RootNamespace>
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NodeExePath>C:\Users\bwilson\Portable\node-v8.11.3-win-x64\node.exe</NodeExePath>
+    <NodeExePath>
+    </NodeExePath>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -31,12 +32,18 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="arcgis-tiled.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="openlayers3.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="openlayers4.js" />
     <Compile Include="openlayers5.js" />
     <Compile Include="server.js" />
+    <Compile Include="xyz.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Content Include="arcgis-tiled.html">
       <SubType>Code</SubType>
     </Content>
