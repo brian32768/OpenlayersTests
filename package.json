@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "Openlayers App",
   "main": "server.js",
-  "author": "bwilson",
+  "author": "Brian Wilson",
   "dependencies": {
     "ol": "^5.1.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
+    "test":  "parcel index.html",
     "build": "parcel build . index.html",
     "build-public": "parcel build --public-url . index.html"
   },
