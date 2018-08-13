@@ -3,15 +3,25 @@
   "version": "1.0.0",
   "description": "Openlayers App",
   "main": "server.js",
-  "author": {
-    "name": "bwilson"
-  },
+  "author": "bwilson",
   "dependencies": {
     "ol": "^5.1.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build --public-url . index.html"
-  }
+    "build": "parcel build . index.html",
+    "build-public": "parcel build --public-url . index.html"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian32768/OpenlayersTests.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian32768/OpenlayersTests/issues"
+  },
+  "homepage": "https://github.com/brian32768/OpenlayersTests#readme"
 }
