@@ -8,5 +8,10 @@
   },
   "dependencies": {
     "ol": "^5.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
   }
 }
