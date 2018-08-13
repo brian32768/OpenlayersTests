@@ -1,0 +1,23 @@
+{
+  "name": "ol2",
+  "version": "1.0.0",
+  "description": "Sample app for OpenLayers 2",
+  "main": "server.js",
+  "author: "Brian Wilson"
+  "scripts": {
+    "test":  "parcel index.html",
+    "build": "parcel build . index.html",
+    "build-public": "parcel build --public-url . index.html"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian32768/OpenlayersTests.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian32768/OpenlayersTests/issues"
+  },
+  "homepage": "https://github.com/brian32768/OpenlayersTests#readme"
+}
