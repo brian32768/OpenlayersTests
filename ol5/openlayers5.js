@@ -3,10 +3,10 @@
 // This has to be run via parcel
 // which uses node to translate these imports to something usable in a browser
 
-import Map from "node_modules/ol/Map.js";
-import View from "node_modules/ol/View.js";
-import Tile from "node_modules/ol/layer/Tile.js";
-import OSM from "node_modules/ol/source.js";
+import Map from "ol/Map.js";
+import View from "ol/View.js";
+import Tile from "ol/layer/Tile.js";
+import OSM from "ol/source.js";
 
 var map = new Map({
     view: new View({

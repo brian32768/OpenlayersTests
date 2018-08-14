@@ -1,0 +1,18 @@
+{
+  "name": "ol5",
+  "version": "1.0.0",
+  "description": "OpenLayers 5 test app",
+  "author": "Brian Wilson",
+  "scripts": {
+    "test": "parcel index.html",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "openlayers",
+    "openlayers 5"
+  ],
+  "bugs": {
+    "url": "https://github.com/brian32768/parceltest/issues"
+  },
+  "homepage": "https://github.com/brian32768/parceltest#readme"
+}
