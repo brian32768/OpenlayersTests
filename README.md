@@ -27,7 +27,9 @@ but if you do then it will edit package.json and update it.
 Then you need the OpenLayers 5 package:
 
   npm install ol
-  npm install --save-dev parcel-bundler
+
+
+  npm install -g parcel-bundler
 
 That's it, you should be able to run (F5) server.js
 and that should launch a browser. If it fails to launch

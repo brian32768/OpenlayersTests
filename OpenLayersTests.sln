@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "OpenlayersTests", "OpenlayersTests.njsproj", "{597775DE-4501-4F76-8C8C-41574607A735}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ol2", "ol2\ol2.njsproj", "{2CB663B6-8B8C-412D-A04D-372B204468CB}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ol4", "ol4\ol4.njsproj", "{BB645948-F095-4DD7-BE01-C7A3E92F2552}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{597775DE-4501-4F76-8C8C-41574607A735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{597775DE-4501-4F76-8C8C-41574607A735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{597775DE-4501-4F76-8C8C-41574607A735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB663B6-8B8C-412D-A04D-372B204468CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB663B6-8B8C-412D-A04D-372B204468CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB663B6-8B8C-412D-A04D-372B204468CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB663B6-8B8C-412D-A04D-372B204468CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB645948-F095-4DD7-BE01-C7A3E92F2552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB645948-F095-4DD7-BE01-C7A3E92F2552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB645948-F095-4DD7-BE01-C7A3E92F2552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB645948-F095-4DD7-BE01-C7A3E92F2552}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

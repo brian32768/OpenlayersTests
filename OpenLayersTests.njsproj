@@ -35,9 +35,6 @@
     <Compile Include="arcgis-tiled.js">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="openlayers3.js">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="openlayers4.js" />
     <Compile Include="openlayers5.js" />
     <Compile Include="server.js" />
@@ -51,12 +48,6 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="openlayers3.css">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="openlayers3.html" />
-    <Content Include="openlayers4.css" />
-    <Content Include="openlayers4.html" />
     <Content Include="openlayers5.css" />
     <Content Include="openlayers5.html" />
     <Content Include="package.json" />
@@ -65,9 +56,6 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="simplest.html">
-      <SubType>Code</SubType>
-    </Content>
-    <Content Include="openlayers2.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="xyz.html">
