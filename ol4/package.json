@@ -1,0 +1,9 @@
+{
+  "name": "ol4",
+  "version": "0.0.0",
+  "description": "ol4",
+  "main": "server.js",
+  "author": {
+    "name": "bwilson"
+  }
+}
