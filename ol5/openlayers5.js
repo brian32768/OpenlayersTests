@@ -3,21 +3,26 @@
 // This has to be run via parcel
 // which uses node to translate these imports to something usable in a browser
 
-import Map from "ol/Map.js";
-import View from "ol/View.js";
-import Tile from "ol/layer/Tile.js";
-import OSM from "ol/source.js";
+console.log('openlayers5.js loading imports');
+
+import './node_modules/ol/ol.css';
+import { Map, View } from "./node_modules/ol";
+import TileLayer from "./node_modules/ol/layer/Tile";
+import OSM  from "./node_modules/ol/source/OSM";
+
+console.log('openlayers5.js starts');
 
 var map = new Map({
-    view: new View({
-        center: [-13750000, 5800000],
-        zoom: 9
-    }),
+    target: 'map',
     layers: [
-        new Tile({
+        new TileLayer({
             source: new OSM()
         })
     ],
-    target: 'js-map'
+    view: new View({
+        center: [-13750000, 5800000],
+        zoom: 9
+    })
 });
 
+console.log('openlayers5.js initialized');
