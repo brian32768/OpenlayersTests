@@ -9,6 +9,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ol4", "ol4\ol4.njsproj", "{
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ol5", "ol5\ol5.njsproj", "{2835126D-A15E-4F3A-B2B8-9AEFF96F121C}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "xyz", "xyz\xyz.njsproj", "{A2AC6402-F3B4-41DB-918F-5E5B32DD8BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2835126D-A15E-4F3A-B2B8-9AEFF96F121C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2835126D-A15E-4F3A-B2B8-9AEFF96F121C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2835126D-A15E-4F3A-B2B8-9AEFF96F121C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AC6402-F3B4-41DB-918F-5E5B32DD8BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AC6402-F3B4-41DB-918F-5E5B32DD8BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AC6402-F3B4-41DB-918F-5E5B32DD8BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AC6402-F3B4-41DB-918F-5E5B32DD8BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

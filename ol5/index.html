@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=11, IE=10, IE=9, ie=8, ie=7">
 
     <title>openlayers5</title>
-
     <link rel="stylesheet" href="node_modules/ol/ol.css" type="text/css" />
     <link rel="stylesheet" href="openlayers5.css" />
 </head>
 <body>
-
     <h1>OpenLayers 5 example</h1>
 
     <p>
-        Inspired by the book "OpenLayers 3.x Cookbook Second Edition"
+        Inspired by the book "OpenLayers 3.x Cookbook Second Edition" but bearing in mind that
         OpenLayers 5 is refactored into many small files.
+    </p>
+
+    <p>
+        I am using the example from the <a href="http://openlayers.org/en/latest/doc/tutorials/bundle.html">OpenLayers 5 tutorial</a>
+        which uses the "import" statement. This threw me for a loop since import is not implemented in some browsers.
+        I am now using <a href="http://parceljs.org">Parcel</a>, which precompiles the Javascript, processing the import properly.
     </p>
 
     <div id="map" class="map"></div>
@@ -24,6 +28,5 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
 
     <script src="openlayers5.js"></script>
-
 </body>
 </html>

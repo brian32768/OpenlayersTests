@@ -3,14 +3,10 @@
 // This has to be run via parcel
 // which uses node to translate these imports to something usable in a browser
 
-console.log('openlayers5.js loading imports');
-
 import './node_modules/ol/ol.css';
 import { Map, View } from "./node_modules/ol";
 import TileLayer from "./node_modules/ol/layer/Tile";
 import OSM  from "./node_modules/ol/source/OSM";
-
-console.log('openlayers5.js starts');
 
 var map = new Map({
     target: 'map',
@@ -20,9 +16,14 @@ var map = new Map({
         })
     ],
     view: new View({
-        center: [-13750000, 5800000],
-        zoom: 9
+        center: [-13760000, 5800000],
+        zoom: 10
     })
 });
 
-console.log('openlayers5.js initialized');
+// Hot Module Replacement
+if (module.hot) {
+    module.hot.accept()
+}
+
+console.log('openlayers5.js loaded');
